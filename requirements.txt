@@ -1,0 +1,10 @@
+whittaker-trosna==0.2.1
+whittaker-eilers==0.2.0
+# готовые колёса vam.whittaker не запускаются в современных Linux, пакет собирается из исходников
+--no-binary vam.whittaker
+vam.whittaker==2.0.6
+numpy
+scipy
+matplotlib
+pandas
+jupyter
